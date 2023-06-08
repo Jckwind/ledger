@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D9425F2A31F04B00BF4499 /* LedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9425E2A31F04B00BF4499 /* LedgerApp.swift */; };
+		19D942612A31F04B00BF4499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D942602A31F04B00BF4499 /* ContentView.swift */; };
+		19D942632A31F04D00BF4499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D942622A31F04D00BF4499 /* Assets.xcassets */; };
+		19D942662A31F04D00BF4499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D942652A31F04D00BF4499 /* Preview Assets.xcassets */; };
+		19D942702A31F04D00BF4499 /* LedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9426F2A31F04D00BF4499 /* LedgerTests.swift */; };
+		19D9427A2A31F04D00BF4499 /* LedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D942792A31F04D00BF4499 /* LedgerUITests.swift */; };
+		19D9427C2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9427B2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D9426C2A31F04D00BF4499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D942532A31F04B00BF4499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D9425A2A31F04B00BF4499;
+			remoteInfo = Ledger;
+		};
+		19D942762A31F04D00BF4499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D942532A31F04B00BF4499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D9425A2A31F04B00BF4499;
+			remoteInfo = Ledger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D9425B2A31F04B00BF4499 /* Ledger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ledger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D9425E2A31F04B00BF4499 /* LedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerApp.swift; sourceTree = "<group>"; };
+		19D942602A31F04B00BF4499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19D942622A31F04D00BF4499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D942652A31F04D00BF4499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19D9426B2A31F04D00BF4499 /* LedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D9426F2A31F04D00BF4499 /* LedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerTests.swift; sourceTree = "<group>"; };
+		19D942752A31F04D00BF4499 /* LedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D942792A31F04D00BF4499 /* LedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerUITests.swift; sourceTree = "<group>"; };
+		19D9427B2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D942582A31F04B00BF4499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D942682A31F04D00BF4499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D942722A31F04D00BF4499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D942522A31F04B00BF4499 = {
+			isa = PBXGroup;
+			children = (
+				19D9425D2A31F04B00BF4499 /* Ledger */,
+				19D9426E2A31F04D00BF4499 /* LedgerTests */,
+				19D942782A31F04D00BF4499 /* LedgerUITests */,
+				19D9425C2A31F04B00BF4499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D9425C2A31F04B00BF4499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D9425B2A31F04B00BF4499 /* Ledger.app */,
+				19D9426B2A31F04D00BF4499 /* LedgerTests.xctest */,
+				19D942752A31F04D00BF4499 /* LedgerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D9425D2A31F04B00BF4499 /* Ledger */ = {
+			isa = PBXGroup;
+			children = (
+				19D9425E2A31F04B00BF4499 /* LedgerApp.swift */,
+				19D942602A31F04B00BF4499 /* ContentView.swift */,
+				19D942622A31F04D00BF4499 /* Assets.xcassets */,
+				19D942642A31F04D00BF4499 /* Preview Content */,
+			);
+			path = Ledger;
+			sourceTree = "<group>";
+		};
+		19D942642A31F04D00BF4499 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19D942652A31F04D00BF4499 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19D9426E2A31F04D00BF4499 /* LedgerTests */ = {
+			isa = PBXGroup;
+			children = (
+				19D9426F2A31F04D00BF4499 /* LedgerTests.swift */,
+			);
+			path = LedgerTests;
+			sourceTree = "<group>";
+		};
+		19D942782A31F04D00BF4499 /* LedgerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19D942792A31F04D00BF4499 /* LedgerUITests.swift */,
+				19D9427B2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift */,
+			);
+			path = LedgerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D9425A2A31F04B00BF4499 /* Ledger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D9427F2A31F04D00BF4499 /* Build configuration list for PBXNativeTarget "Ledger" */;
+			buildPhases = (
+				19D942572A31F04B00BF4499 /* Sources */,
+				19D942582A31F04B00BF4499 /* Frameworks */,
+				19D942592A31F04B00BF4499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ledger;
+			productName = Ledger;
+			productReference = 19D9425B2A31F04B00BF4499 /* Ledger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19D9426A2A31F04D00BF4499 /* LedgerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D942822A31F04D00BF4499 /* Build configuration list for PBXNativeTarget "LedgerTests" */;
+			buildPhases = (
+				19D942672A31F04D00BF4499 /* Sources */,
+				19D942682A31F04D00BF4499 /* Frameworks */,
+				19D942692A31F04D00BF4499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D9426D2A31F04D00BF4499 /* PBXTargetDependency */,
+			);
+			name = LedgerTests;
+			productName = LedgerTests;
+			productReference = 19D9426B2A31F04D00BF4499 /* LedgerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19D942742A31F04D00BF4499 /* LedgerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D942852A31F04D00BF4499 /* Build configuration list for PBXNativeTarget "LedgerUITests" */;
+			buildPhases = (
+				19D942712A31F04D00BF4499 /* Sources */,
+				19D942722A31F04D00BF4499 /* Frameworks */,
+				19D942732A31F04D00BF4499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D942772A31F04D00BF4499 /* PBXTargetDependency */,
+			);
+			name = LedgerUITests;
+			productName = LedgerUITests;
+			productReference = 19D942752A31F04D00BF4499 /* LedgerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D942532A31F04B00BF4499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					19D9425A2A31F04B00BF4499 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					19D9426A2A31F04D00BF4499 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 19D9425A2A31F04B00BF4499;
+					};
+					19D942742A31F04D00BF4499 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 19D9425A2A31F04B00BF4499;
+					};
+				};
+			};
+			buildConfigurationList = 19D942562A31F04B00BF4499 /* Build configuration list for PBXProject "Ledger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19D942522A31F04B00BF4499;
+			productRefGroup = 19D9425C2A31F04B00BF4499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D9425A2A31F04B00BF4499 /* Ledger */,
+				19D9426A2A31F04D00BF4499 /* LedgerTests */,
+				19D942742A31F04D00BF4499 /* LedgerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D942592A31F04B00BF4499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D942662A31F04D00BF4499 /* Preview Assets.xcassets in Resources */,
+				19D942632A31F04D00BF4499 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D942692A31F04D00BF4499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D942732A31F04D00BF4499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D942572A31F04B00BF4499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D942612A31F04B00BF4499 /* ContentView.swift in Sources */,
+				19D9425F2A31F04B00BF4499 /* LedgerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D942672A31F04D00BF4499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D942702A31F04D00BF4499 /* LedgerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D942712A31F04D00BF4499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D9427A2A31F04D00BF4499 /* LedgerUITests.swift in Sources */,
+				19D9427C2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D9426D2A31F04D00BF4499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D9425A2A31F04B00BF4499 /* Ledger */;
+			targetProxy = 19D9426C2A31F04D00BF4499 /* PBXContainerItemProxy */;
+		};
+		19D942772A31F04D00BF4499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D9425A2A31F04B00BF4499 /* Ledger */;
+			targetProxy = 19D942762A31F04D00BF4499 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19D9427D2A31F04D00BF4499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19D9427E2A31F04D00BF4499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19D942802A31F04D00BF4499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VNQG75WL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jckwind.Ledger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D942812A31F04D00BF4499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VNQG75WL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jckwind.Ledger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19D942832A31F04D00BF4499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VNQG75WL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jckwind.LedgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ledger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ledger";
+			};
+			name = Debug;
+		};
+		19D942842A31F04D00BF4499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VNQG75WL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jckwind.LedgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ledger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ledger";
+			};
+			name = Release;
+		};
+		19D942862A31F04D00BF4499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VNQG75WL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jckwind.LedgerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ledger;
+			};
+			name = Debug;
+		};
+		19D942872A31F04D00BF4499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VNQG75WL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jckwind.LedgerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ledger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D942562A31F04B00BF4499 /* Build configuration list for PBXProject "Ledger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D9427D2A31F04D00BF4499 /* Debug */,
+				19D9427E2A31F04D00BF4499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D9427F2A31F04D00BF4499 /* Build configuration list for PBXNativeTarget "Ledger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D942802A31F04D00BF4499 /* Debug */,
+				19D942812A31F04D00BF4499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D942822A31F04D00BF4499 /* Build configuration list for PBXNativeTarget "LedgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D942832A31F04D00BF4499 /* Debug */,
+				19D942842A31F04D00BF4499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D942852A31F04D00BF4499 /* Build configuration list for PBXNativeTarget "LedgerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D942862A31F04D00BF4499 /* Debug */,
+				19D942872A31F04D00BF4499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D942532A31F04B00BF4499 /* Project object */;
+}
