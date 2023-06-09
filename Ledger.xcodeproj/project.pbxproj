@@ -14,6 +14,13 @@
 		19D942702A31F04D00BF4499 /* LedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9426F2A31F04D00BF4499 /* LedgerTests.swift */; };
 		19D9427A2A31F04D00BF4499 /* LedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D942792A31F04D00BF4499 /* LedgerUITests.swift */; };
 		19D9427C2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9427B2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift */; };
+		19D942892A31F13D00BF4499 /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D942882A31F13D00BF4499 /* GlassView.swift */; };
+		19D9428B2A31FBFA00BF4499 /* ButtonWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9428A2A31FBFA00BF4499 /* ButtonWithIcon.swift */; };
+		19D9428D2A32026200BF4499 /* RolePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9428C2A32026200BF4499 /* RolePickerView.swift */; };
+		19D9428F2A3204EF00BF4499 /* TypeWriterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9428E2A3204EF00BF4499 /* TypeWriterView.swift */; };
+		19D942932A3208E500BF4499 /* EBGaramond-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19D942912A3208E500BF4499 /* EBGaramond-VariableFont_wght.ttf */; };
+		19D942942A3208E500BF4499 /* EBGaramond-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19D942922A3208E500BF4499 /* EBGaramond-Italic-VariableFont_wght.ttf */; };
+		19D942962A320A1700BF4499 /* DynamicCustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D942952A320A1700BF4499 /* DynamicCustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,14 @@
 		19D942752A31F04D00BF4499 /* LedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D942792A31F04D00BF4499 /* LedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerUITests.swift; sourceTree = "<group>"; };
 		19D9427B2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D942882A31F13D00BF4499 /* GlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
+		19D9428A2A31FBFA00BF4499 /* ButtonWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithIcon.swift; sourceTree = "<group>"; };
+		19D9428C2A32026200BF4499 /* RolePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePickerView.swift; sourceTree = "<group>"; };
+		19D9428E2A3204EF00BF4499 /* TypeWriterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeWriterView.swift; sourceTree = "<group>"; };
+		19D942912A3208E500BF4499 /* EBGaramond-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		19D942922A3208E500BF4499 /* EBGaramond-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		19D942952A320A1700BF4499 /* DynamicCustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCustomFont.swift; sourceTree = "<group>"; };
+		19D942972A320C6900BF4499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +109,15 @@
 		19D9425D2A31F04B00BF4499 /* Ledger */ = {
 			isa = PBXGroup;
 			children = (
+				19D942972A320C6900BF4499 /* Info.plist */,
+				19D942902A3208C200BF4499 /* Resources */,
 				19D9425E2A31F04B00BF4499 /* LedgerApp.swift */,
 				19D942602A31F04B00BF4499 /* ContentView.swift */,
+				19D942882A31F13D00BF4499 /* GlassView.swift */,
+				19D9428C2A32026200BF4499 /* RolePickerView.swift */,
+				19D9428A2A31FBFA00BF4499 /* ButtonWithIcon.swift */,
+				19D942952A320A1700BF4499 /* DynamicCustomFont.swift */,
+				19D9428E2A3204EF00BF4499 /* TypeWriterView.swift */,
 				19D942622A31F04D00BF4499 /* Assets.xcassets */,
 				19D942642A31F04D00BF4499 /* Preview Content */,
 			);
@@ -125,6 +147,15 @@
 				19D9427B2A31F04D00BF4499 /* LedgerUITestsLaunchTests.swift */,
 			);
 			path = LedgerUITests;
+			sourceTree = "<group>";
+		};
+		19D942902A3208C200BF4499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19D942922A3208E500BF4499 /* EBGaramond-Italic-VariableFont_wght.ttf */,
+				19D942912A3208E500BF4499 /* EBGaramond-VariableFont_wght.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				19D942662A31F04D00BF4499 /* Preview Assets.xcassets in Resources */,
+				19D942942A3208E500BF4499 /* EBGaramond-Italic-VariableFont_wght.ttf in Resources */,
 				19D942632A31F04D00BF4499 /* Assets.xcassets in Resources */,
+				19D942932A3208E500BF4499 /* EBGaramond-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D942962A320A1700BF4499 /* DynamicCustomFont.swift in Sources */,
+				19D9428B2A31FBFA00BF4499 /* ButtonWithIcon.swift in Sources */,
+				19D942892A31F13D00BF4499 /* GlassView.swift in Sources */,
+				19D9428D2A32026200BF4499 /* RolePickerView.swift in Sources */,
 				19D942612A31F04B00BF4499 /* ContentView.swift in Sources */,
 				19D9425F2A31F04B00BF4499 /* LedgerApp.swift in Sources */,
+				19D9428F2A3204EF00BF4499 /* TypeWriterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +458,14 @@
 				DEVELOPMENT_TEAM = 9VNQG75WL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ledger/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ledger;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +490,14 @@
 				DEVELOPMENT_TEAM = 9VNQG75WL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ledger/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ledger;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
